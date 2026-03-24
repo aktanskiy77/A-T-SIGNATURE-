@@ -1,10 +1,10 @@
 import React from 'react'
 import ProductCard from './components/ProductCard' 
 
-import bannerImg from './assets/banner.png'
-import shirtImg from './assets/shirt.png'
-import sweaterImg from './assets/sweater.png'
-import blazerImg from './assets/blazer.png'
+import banner from './assets/Banner.png'
+import shirt from './assets/shirt.png'
+import sweater from './assets/sweater.png'
+import blazer from './assets/blazer.png'
 
 function App() {
   const products = [
