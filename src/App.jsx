@@ -1,10 +1,6 @@
 import React from 'react'
 import ProductCard from './components/ProductCard' 
 
-
-import React from 'react'
-import ProductCard from './components/ProductCard' 
-
 import bannerImg from './assets/banner.png'
 import shirtImg from './assets/shirt.png'
 import sweaterImg from './assets/sweater.png'
@@ -17,7 +13,6 @@ function App() {
     { id: 3, name: "BLAZER WITH METAL BUTTONS", price: "2.500", img: blazerImg },
   ]
 
-  
   return (
     <div className="min-h-screen bg-[#FEF7E6] overflow-x-hidden">
       <header className="bg-[#2A497D] h-auto min-h-[100px] md:h-[150px] pb-2 md:pb-0">
@@ -36,12 +31,10 @@ function App() {
       </header> 
 
       <main className='font-main'>
-        
         <div className="hidden md:block">
           <img src={bannerImg} alt="Banner" className='pt-[24px] pl-[15%] w-[1060px]' />
         </div>
 
-      
         <div className='wear-cards grid grid-cols-3 md:flex gap-[5px] md:gap-[80px] px-2 md:px-0 mt-4 md:mt-0'>
           {products.map((product, index) => (
             <ProductCard 
