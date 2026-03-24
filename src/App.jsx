@@ -1,16 +1,16 @@
 import React from 'react'
 import ProductCard from './components/ProductCard' 
 
-import banner from './assets/Banner.png'
+import Banner from './assets/Banner.png'
 import shirt from './assets/shirt.png'
 import sweater from './assets/sweater.png'
 import blazer from './assets/blazer.png'
 
 function App() {
   const products = [
-    { id: 1, name: "SPREAD COLOR SHIRT", price: "2.500", img: shirtImg },
-    { id: 2, name: "SILK AND LINEN SWEATER", price: "2.500", img: sweaterImg },
-    { id: 3, name: "BLAZER WITH METAL BUTTONS", price: "2.500", img: blazerImg },
+    { id: 1, name: "SPREAD COLOR SHIRT", price: "2.500", img: shirt },
+    { id: 2, name: "SILK AND LINEN SWEATER", price: "2.500", img: sweater },
+    { id: 3, name: "BLAZER WITH METAL BUTTONS", price: "2.500", img: blazer },
   ]
 
   return (
@@ -32,7 +32,7 @@ function App() {
 
       <main className='font-main'>
         <div className="hidden md:block">
-          <img src={bannerImg} alt="Banner" className='pt-[24px] pl-[15%] w-[1060px]' />
+          <img src={Banner} alt="Banner" className='pt-[24px] pl-[15%] w-[1060px]' />
         </div>
 
         <div className='wear-cards grid grid-cols-3 md:flex gap-[5px] md:gap-[80px] px-2 md:px-0 mt-4 md:mt-0'>
