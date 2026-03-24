@@ -14,6 +14,7 @@ function App() {
     { id: 3, name: "BLAZER WITH METAL BUTTONS", price: "2.500", img: blazerImg },
   ]
 
+  
   return (
     <div className="min-h-screen bg-[#FEF7E6] overflow-x-hidden">
       <header className="bg-[#2A497D] h-auto min-h-[100px] md:h-[150px] pb-2 md:pb-0">
