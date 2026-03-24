@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inheritance: "Libre Caslon Display", serif;
+  --font-main: "Lao Sans Pro", sans-serif;
+  
+}
