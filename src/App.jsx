@@ -2,10 +2,13 @@ import React from 'react'
 import ProductCard from './components/ProductCard' 
 
 
+import React from 'react'
+import ProductCard from './components/ProductCard' 
+
 import bannerImg from './assets/banner.png'
-import shirtImg from './assets/261MD8216686-C570-F 1.png'
-import sweaterImg from './assets/261MSY00100-C2386-F 1.png'
-import blazerImg from './assets/261MOUTFITMG4579CPNGC9036-E 1.png'
+import shirtImg from './assets/shirt.png'
+import sweaterImg from './assets/sweater.png'
+import blazerImg from './assets/blazer.png'
 
 function App() {
   const products = [
